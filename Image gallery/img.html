@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>image gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="img.css">
+</head>
+<body>
+
+<section class="gallery">
+	<div class="container">
+		<div class="row">
+			<div class="gallery-filter">
+                <h1 class="pb-5" style="color: white;">Image <span style="color: #cced00;">Gallery</span></h1>
+				<span class="filter-item active" data-filter="all">all</span>
+				<span class="filter-item" data-filter="shoe">Flowers</span>
+				<span class="filter-item" data-filter="headphone">study</span>
+				<span class="filter-item" data-filter="camera">quotes</span>
+			</div>
+		</div>
+		<div class="row">
+		
+			<div class="gallery-item shoe">
+				<div class="gallery-item-inner">
+					<img src="pic1.jpg" alt="shoe">
+				</div>
+			</div>
+		
+			<div class="gallery-item headphone">
+				<div class="gallery-item-inner">
+					<img src="pic2.jpg" alt="headphone">
+				</div>
+			</div>
+			
+			<div class="gallery-item camera">
+				<div class="gallery-item-inner">
+					<img src="pic3.jpg" alt="camera">
+				</div>
+			</div>
+	
+			<div class="gallery-item headphone">
+				<div class="gallery-item-inner">
+					<img src="pic4.jpg" alt="headphone">
+				</div>
+			</div>
+		
+			<div class="gallery-item camera">
+				<div class="gallery-item-inner">
+					<img src="pic5.jpg" alt="camera">
+				</div>
+			</div>
+		
+			<div class="gallery-item headphone">
+				<div class="gallery-item-inner">
+					<img src="pic6.jpg" alt="headphone">
+				</div>
+			</div>
+		
+		</div>
+	</div>
+</section>
+
+<script src="img.js"></script>
+</body>
+</html>
